@@ -6,3 +6,74 @@ body * {
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+body {
+    background-color: aqua;
+
+}
+.background {
+    
+
+}
+main {
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: red;
+
+}
+.left-column {
+    display: inline-block;
+    width: 40%;
+    height: 100vh;
+    background-color: violet;
+    
+}
+h1 {
+    display: inline-block;
+    height: 60px;
+    background-color: purple;
+    text-align: center;
+
+}
+h2 {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: rgb(180, 238, 20);
+
+}
+p {
+    display: inline-flex;
+    background-color: green;
+
+}
+.bottom-links {
+    width: 10%;
+    display: inline-block;
+    background-color: rosybrown;
+ 
+}
+.right-column {
+    display: inline-block;
+    width: 60%;
+    height: 100vh;
+    background-image: url(../img/rightcolumn.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.last {
+    display: inline-block;
+    margin: 20px;
+    margin-top: 40px;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+.last > a {
+    display: inline-block;
+    background-color: aqua;
+    word-spacing: 45px;
+
+}

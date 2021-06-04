@@ -1,8 +1,56 @@
-body,
-body * {
-    margin: 0;
-    padding: 0;
-    vertical-align: top;
-    box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+  }
+.form-row {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    width: 100%;
 }
+.form-row.flex-row {
+    flex-direction: row;
+    gap: 25px;
+}
+.form-row > label {
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  .form-row > input {
+    line-height: 40px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+  .form-row > input::placeholder {
+    color: #ccc;
+    font-style: italic;
+  }
+  .form-row > button {
+    
+    line-height: 40px;
+    font-size: 20px;
+    background: #015cda;
+   
+    color: #fff;
+    border: none;
+    
+    box-shadow: 0 4px 8px 0 #0005;
+    
+  }
+  .form-row > button:hover {
+    box-shadow: 0 4px 8px 0 #0008;
+  }
+  .form-row > span {
+    line-height: 40px;
+    font-size: 18px;
+  }
+  .form-row > a {
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #015cda;
+  }
+  
