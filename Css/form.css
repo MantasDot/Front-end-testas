@@ -1,44 +1,43 @@
 .form {
-    display: flex;
-    flex-direction: column;
+    display:flex;
+    flex-direction:column;
     gap: 40px;
-    width: 100%;
+    width: 80%;
+    margin-right: 20px;
   }
 .form-row {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     gap: 10px;
-    width: 100%;
+    margin-left: 25px;
 }
 .form-row.flex-row {
+    display: inline-block;
+    background-color: yellow;
     flex-direction: row;
-    gap: 25px;
 }
 .form-row > label {
     text-transform: uppercase;
-    font-size: 14px;
-  }
-  .form-row > input {
+    font-size: 14px
+}
+.form-row > input {
+    
     line-height: 40px;
     font-size: 20px;
     border: none;
     border-bottom: 1px solid #ccc;
-  }
+}
   .form-row > input::placeholder {
     color: #ccc;
     font-style: italic;
   }
   .form-row > button {
-    
     line-height: 40px;
     font-size: 20px;
     background: #015cda;
-   
     color: #fff;
     border: none;
-    
     box-shadow: 0 4px 8px 0 #0005;
-    
   }
   .form-row > button:hover {
     box-shadow: 0 4px 8px 0 #0008;
@@ -52,5 +51,14 @@
     font-size: 18px;
     text-decoration: none;
     color: #015cda;
+  }
+  .form-row.two {
+      background-color: aqua;
+      display: flex;
+      flex-direction:row;
+      gap: 50px;
+  }
+  .form-row.flex-row > a:last-child {
+      float: right;
   }
   
