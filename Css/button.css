@@ -4,7 +4,10 @@
     background: #015cda;
    padding: 15px;
     color: #fff;
-    border:none
-    box-shadow: 0 4px 8px 0 #0005;
+    border:none;
+    box-shadow: 0 4px 8px 0 rgba(51, 8, 172, 0.333);
     
+  }
+  .form-row > button:last-of-type {
+      background-color: white;
   }

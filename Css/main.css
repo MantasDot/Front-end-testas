@@ -8,11 +8,6 @@ body * {
 }
 body {
     background-color: aqua;
-
-}
-.background {
-    
-
 }
 main {
     display: inline-block;
@@ -24,22 +19,26 @@ main {
 }
 .left-column {
     display: inline-block;
-    width: 40%;
+    width: 30%;
     height: 100vh;
     background-color: violet;
 }
 h1 {
     display: inline-block;
+    color: ;
+    margin-top: 20px;
+    margin-left: 15px;
     height: 60px;
     background-color: purple;
     text-align: center;
 }
 h2 {
     display: inline-block;
+    margin-top: 20px;
     background-color: rgb(180, 238, 20);
 }
 p {
-   
+   margin-top: 20px;
     background-color: green;
     text-align: center;
 }
@@ -50,12 +49,12 @@ p {
 }
 .right-column {
     display: inline-block;
-    width: 60%;
-    height: 100%;
+    width: 70%;
+    height: 100vh;
     background-image: url(../img/rightcolumn.png);
-    
     background-position: center;
-    background-size: cover;
+    background-size:initial;
+    background-repeat:repeat;
     position: absolute;
 }
 .last {
