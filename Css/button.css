@@ -1,7 +1,7 @@
 .form-row > button {
     line-height: 20px;
     font-size: 15px;
-    background: #015cda;
+    background: #3751FF;
    padding: 15px;
     color: #fff;
     border:none;
@@ -10,4 +10,7 @@
   }
   .form-row > button:last-of-type {
       background-color: white;
+      border-style: solid;
+      border-color: #3751FF;
+      
   }

@@ -13,12 +13,17 @@
 }
 .form-row.flex-row {
     display: inline-block;
+    width: 100%;
     background-color: yellow;
     flex-direction: row;
+    color: #8C8D9A;
 }
 .form-row > label {
-    text-transform: uppercase;
-    font-size: 14px
+  text-transform:capitalize;
+  font-size: 15px;
+  color: #015cda
+
+  
 }
 .form-row > input {
     line-height: 40px;
@@ -27,7 +32,7 @@
     border-bottom: 1px solid #ccc;
 }
   .form-row > input::placeholder {
-    color: #ccc;
+    color: rgb(37, 16, 230);
     font-style:normal;
   }
   .form-row > a {
@@ -40,9 +45,10 @@
       background-color: aqua;
       display: flex;
       flex-direction:row;
-      gap: 50px;
+      gap: 60px;
   }
   .form-row.flex-row > a:last-child {
+    display: inline;
       float: right;
   }
   

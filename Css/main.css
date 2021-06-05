@@ -19,28 +19,35 @@ main {
 }
 .left-column {
     display: inline-block;
-    width: 30%;
+    width: 40%;
     height: 100vh;
     background-color: violet;
 }
 h1 {
     display: inline-block;
-    color: ;
+    color:#3851FA ;
     margin-top: 20px;
-    margin-left: 15px;
+    margin-left: 20px;
     height: 60px;
     background-color: purple;
     text-align: center;
+    font-size: 25px;
 }
 h2 {
+    color: #21314E;
     display: inline-block;
     margin-top: 20px;
     background-color: rgb(180, 238, 20);
+    font-style: italic;
+    margin-left: 20px;
+    font-size: 25px;
 }
 p {
    margin-top: 20px;
     background-color: green;
     text-align: center;
+    color: #8A8C9B;
+    font-size: 15px;
 }
 .bottom-links {
     width: 0%;
@@ -49,7 +56,7 @@ p {
 }
 .right-column {
     display: inline-block;
-    width: 70%;
+    width: 60%;
     height: 100vh;
     background-image: url(../img/rightcolumn.png);
     background-position: center;
@@ -65,5 +72,5 @@ p {
 .last > a {
     display: inline-block;
     background-color: aqua;
-    word-spacing: 45px;
+    
 }
