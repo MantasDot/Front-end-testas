@@ -14,7 +14,7 @@
 .form-row.flex-row {
     display: inline-block;
     width: 100%;
-    background-color: yellow;
+    
     flex-direction: row;
     color: #8C8D9A;
 }
@@ -42,10 +42,10 @@
     color: #015cda;
   }
   .form-row.two {
-      background-color: aqua;
       display: flex;
       flex-direction:row;
       gap: 60px;
+      height: 50px;
   }
   .form-row.flex-row > a:last-child {
     display: inline;
